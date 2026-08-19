@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# PyTorch / ML artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Local data
+data/*
+checkpoints/*
+
+# Keep directory structure
+!data/.gitkeep
+!checkpoints/.gitkeep
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Logs
+*.log
