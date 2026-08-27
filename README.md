@@ -3,7 +3,8 @@
 A containerized CIFAR-10 image classification pipeline using PyTorch ResNet-18, with separate training and serving images with a FastAPI serving layer.
 
 > Course: DA5402W MLOps - Assignment 3
-> Author: [Kasar Nikhil Shantaram (DA25M515)] | GitHub: [@nikhilkasar98](https://github.com/nikhilkasar98)
+
+> Author: Kasar Nikhil Shantaram (DA25M515) | GitHub: [@nikhilkasar98](https://github.com/nikhilkasar98)
 
 ## Architecture diagram
 
