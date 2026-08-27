@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 
 import torch
@@ -88,7 +89,12 @@ def evaluate(
 
 
 def main():
-    config_path = Path("configs/training_config.yaml")
+    config_path = Path(
+        os.environ.get(
+            "TRAINING_CONFIG",
+            "configs/training_config.yaml",
+        )
+    )
 
     if not config_path.exists():
         raise FileNotFoundError(
